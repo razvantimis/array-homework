@@ -1,4 +1,15 @@
 
+/*
+Use two nested (one inside to another) for structures to log the following pattern:
+
+    0 1 0 1
+
+    1 0 1 0
+
+    0 1 0 1
+
+    1 0 1 0
+*/
 const length = 4;
 let matrice = ""
 for (let indexFirstLevel = 0; indexFirstLevel < length; indexFirstLevel++) {
